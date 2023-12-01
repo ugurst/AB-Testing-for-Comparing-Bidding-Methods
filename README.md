@@ -1,25 +1,17 @@
-# AB-Testing-for-Comparing-Bidding-Methods
- Bu proje, Facebook'un "maximum bidding" ve "average bidding" teklif türlerinin performansını karşılaştırmak için tasarlanmış bir A/B testi uygulamasını içerir. Ana hedef, bu iki teklif türünün dönüşüm oranları arasındaki farkı analiz etmek ve hangi metodun daha etkili olduğunu belirlemektir.
+# A/B Testing
 
-# İş problemi
+This project includes an A/B testing application designed to compare the performance of Facebook's 'maximum bidding' and 'average bidding' bid types. The main objective is to analyze the difference in conversion rates between these two bidding methods and determine which method is more effective.
 
-Facebook kısa süre önce mevcut "maximum bidding" adı verilen teklif verme türüne alternatif olarak yeni bir teklif türü olan "average bidding"’i tanıttı.
+Business Problem
+Facebook recently introduced a new bidding method, 'average bidding', as an alternative to the existing 'maximum bidding'.
 
-Müşterilerimizden biri olan bombabomba.com, bu yeni özelliği test etmeye karar verdi ve average bidding'in maximum bidding'den daha fazla dönüşüm getirip getirmediğini anlamak için bir A/B testi yapmak istiyor.
+One of our clients, ---.com, decided to test this new feature and wants to conduct an A/B test to understand whether average bidding brings more conversions than maximum bidding.
 
-A/B testi 1 aydır devam ediyor ve bombabomba.com şimdi sizden bu A/B testinin sonuçlarını analiz etmenizi bekliyor.
----.com için nihai başarı ölçütü Purchase'dır. Bu
-nedenle, istatistiksel testler için Purchase metriğine odaklanılmalıdır.
+The A/B test has been ongoing for a month, and now bombabomba.com expects you to analyze the results of this A/B test. The ultimate success metric for ---.com is Purchase. Therefore, the Purchase metric should be the focus for statistical tests.
 
-Bir firmanın web site bilgilerini içeren bu veri setinde kullanıcıların gördükleri ve tıkladıkları reklam sayıları gibi bilgilerin yanı sıra buradan gelen kazanç bilgileri yer almaktadır. Kontrol ve Test grubu olmak üzere iki ayrı veri seti vardır. Bu veri setleri ab_testing.xlsx excel’inin ayrı sayfalarında yer almaktadır. Kontrol grubuna Maximum Bidding, test grubuna Average Bidding uygulanmıştır.
+This dataset, containing a company's website information, includes data such as the number of ads seen and clicked by users, as well as the earnings generated from these. There are two separate datasets: a Control group and a Test group. These datasets are located on different pages of the ab_testing.xlsx Excel file. Maximum Bidding is applied to the Control group, and Average Bidding to the Test group.
 
+4 Variables 40 Observations 26 KB
+Impression Number of ad views Click Number of clicks on viewed ads Purchase Number of products purchased after clicking on ads Earning Earnings obtained after products are purchased
 
-	4 Değişken		 	40 Gözlem		 	26 KB	
-
-
-Impression	Reklam görüntüleme sayısı
-Click	Görüntülenen reklama tıklama sayısı
-Purchase	Tıklanan reklamlar sonrası satın alınan ürün sayısı
-Earning	Satın alınan ürünler sonrası elde edilen kazanç
-
-Veri seti gizli tutulmuştur.
+The data set was kept confidential
